@@ -1,5 +1,5 @@
 import express from 'express';
-import routers from './mocks';
+import routers from './mock';
 
 const app = express();
 const PORT = process.env.PORT || 8000;
