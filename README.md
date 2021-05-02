@@ -20,13 +20,13 @@ yarn start
 
 ## Usage
 
-create a file like below, save it at `mocks` dir.
+create a file like below, save it at `mock` dir.
 
 ```ts
 import { Request, Response} from 'express';
 
 export default {
-    'GET /heloo': (req: Request, res: Response) => {
+    'GET /hello': (req: Request, res: Response) => {
         res.send({
             name: 'mock'
         });
