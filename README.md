@@ -31,6 +31,11 @@ export default {
             name: 'mock'
         });
     },
+    'GET /users/:id': (req: Request, res: Response) => {
+        res.send({
+            user_id: req.params.id
+        });
+    },
 }
 
 ```
