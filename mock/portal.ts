@@ -18,7 +18,12 @@ export default {
             logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
             title: 'Ant Design',
             description: 'Ant Design 是西湖区最具影响力的 Web 设计规范',
-            //user: { user_name: 'hello' }
+            user: { 
+                    user_name: 'hello',
+                    apps: [
+                        { name:'admin',title:'admin site' }
+                    ]
+                }
         });
     },
 }
